@@ -1,8 +1,7 @@
 <template>
   <div class="home">
-    <h1>This is an home page</h1>
-    {{ $store.state.str }}
-    {{ $store.state.a.str }}
+    <p>$store.state.str ==> {{ $store.state.str }}</p>
+    <p>$store.state.a.str ==> {{ $store.state.a.str }}</p>
   </div>
 </template>
 

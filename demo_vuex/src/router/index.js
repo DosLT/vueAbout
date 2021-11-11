@@ -11,10 +11,10 @@ export const routes = [
     component: Home
   },
   {
-    path: "/text",
-    name: "Home",
+    path: "/modulePage",
+    name: "ModulePage",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Text.vue")
+      import(/* webpackChunkName: "modulePage" */ "../views/ModulePage.vue")
   },
   {
     path: "/about",

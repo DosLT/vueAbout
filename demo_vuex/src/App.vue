@@ -5,8 +5,9 @@
       v-for="item in routes"
       :key="item.path"
       :to="item.path"
-      >{{ item.name }}</router-link
     >
+      {{ item.name }}
+    </router-link>
     <router-view />
   </div>
 </template>
